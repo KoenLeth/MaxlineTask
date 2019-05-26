@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.searchbar_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.purpouses_container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 302px;
+  border: 1px solid #cdcdcd;
+  font-family: "Arial", Verdana, Sans-serif;
+}
+
+#search_button{
+  font-family: "Arial", Verdana, Sans-serif;
+  height: 34px;
+  border: 2px solid #dcdcdc;
+  color: #444!important;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 1px;
+}
+
+#search_button:active {
+  font-family: "Arial", Verdana, Sans-serif;
+  height: 34px;
+  border: 2px solid #4285F4;
+  color: #A9A9A9;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 1px;
+}
+
+#searchbar {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+  font-family: "Arial", Verdana, Sans-serif;
+  margin-right: 10px;
+}
+
+.purpouse:hover{
+  background-color:  #4285F4;
+  color: white;
+  font-family: "Arial", Verdana, Sans-serif;
+  border: 1px solid grey;
+}
+
+.purpouse{
+  border: 1px solid lightgrey;
+  background-color: #fff;
+}
+
+.weather_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 302px;
+  font-family: "Arial", Verdana, Sans-serif;
+  margin: 0 auto;
+  margin-top: 105px;
+  background-image: url(https://i.pinimg.com/474x/d6/3d/c1/d63dc18f8f41f46556add084e447097d.jpg);
+  color: white;
+  padding: 10px 0 30px 0;
+
+}
+
+.searchbox{
+  position: relative;
+}
+
+.image{
+  width: 70px;
+}
+
+body{
+  background-image: url(https://hdqwalls.com/download/city-blurred-hd-1920x1080.jpg);
+}
+
+.tempreture_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 17px;
 }

@@ -18,3 +18,10 @@ export function hideBar() {
         type: 'hideBar',
     };
 }
+
+export function setSearchValue(value){
+    return {
+        type: 'setSearchValue',
+        value
+    };
+}

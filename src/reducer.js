@@ -1,8 +1,8 @@
 const initialState = {
     cityData: {
-        weather:[{}]
     },
-    barIsOpen: false
+    barIsOpen: false,
+    searchValue: ""
 }
 
 export default (state=initialState, action)=> {
@@ -22,6 +22,11 @@ export default (state=initialState, action)=> {
         return{
             ...state,
             barIsOpen: false
+        }
+        case "setSearchValue":
+        return{
+            ...state,
+            searchValue: action.value
         }
         default: 
         return state
